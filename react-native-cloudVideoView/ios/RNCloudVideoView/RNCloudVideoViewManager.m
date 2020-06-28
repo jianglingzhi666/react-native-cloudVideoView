@@ -1,13 +1,14 @@
 //
-//  RNTXVodPlayerViewManager.m
-//  video
+//  RNCloudVideoViewManager.m
+//  RNCloudVideoView
 //
-//  Created by jianglingzhi on 2020/6/4.
+//  Created by jianglingzhi on 2020/6/28.
+//  Copyright © 2020 jianglingzhi. All rights reserved.
 //
 
-#import "RNTXVodPlayerViewManager.h"
+#import "RNCloudVideoViewManager.h"
 
-@implementation RNTXVodPlayerViewManager
+@implementation RNCloudVideoViewManager
 RCT_EXPORT_MODULE(RNCloudVideoView)
 - (UIView *)view{
   

@@ -1,13 +1,14 @@
 //
-//  RNTXVodPlayerView.m
-//  video
+//  RNCloudVideoView.m
+//  RNCloudVideoView
 //
-//  Created by jianglingzhi on 2020/6/4.
+//  Created by jianglingzhi on 2020/6/28.
+//  Copyright © 2020 jianglingzhi. All rights reserved.
 //
 
-#import "RNTXVodPlayerView.h"
-//#import "TXVodPlayListener.h"
-@implementation RNTXVodPlayerView
+#import "RNCloudVideoView.h"
+
+@implementation RNCloudVideoView
 - (instancetype)initWithFrame:(CGRect)frame
 {
   self = [super initWithFrame:frame];
