@@ -73,7 +73,7 @@ import RNCloudVideoView from 'react-native-cloud-video-view';
 ***设置播放倍数默认为1.0***
 
 **onPlayProgress**</br>
-***返回一个JSON对象包含 播放进度、视频总长度、已加载进度，已毫秒为单位***</br>
+***返回一个JSON对象包含 播放进度、视频总长度、已加载进度，秒为单位***</br>
 * ***duration*** 加载进度
 * ***progress*** 播放进度
 * ***total*** 视频总长度
