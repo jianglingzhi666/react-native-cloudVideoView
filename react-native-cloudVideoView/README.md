@@ -30,7 +30,6 @@ import RNCloudVideoView from 'react-native-cloud-video-view';
 ## 可配置属性
 
 **repeat**</br>
-
 ***是否开启循环播放***</br>
 * ***false(默认)*** 关闭循环播放</br>
 * ***ture*** 开启循环播放</br>
@@ -51,10 +50,15 @@ import RNCloudVideoView from 'react-native-cloud-video-view';
 **cache**</br>
 ***设置视频缓存数量（默认为0）***</br>
 
+**
+
 **preload**</br>
 ***是否开启预加载***
 * ***false(默认)*** 关闭预加载</br>
 * ***ture*** 开启预加载</br>
+
+**rate**
+***设置播放倍数默认为1.0***
 
 **onPlayProgress**</br>
 ***返回一个JSON对象包含 播放进度、视频总长度、已加载进度，已毫秒为单位***</br>
@@ -77,4 +81,8 @@ import RNCloudVideoView from 'react-native-cloud-video-view';
 * ***2003***  网络接收到首个可渲染的视频数据包
 
 
+## 方法
 
+**pause()** 暂停播放
+**resume()** 继续播放
+**seek(time)**  设置播放进度,参数以秒为单位float类型
