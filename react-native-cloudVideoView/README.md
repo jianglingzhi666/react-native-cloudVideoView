@@ -57,7 +57,7 @@ import RNCloudVideoView from 'react-native-cloud-video-view';
 * ***false(默认)*** 关闭预加载</br>
 * ***ture*** 开启预加载</br>
 
-**rate**
+**rate**</br>
 ***设置播放倍数默认为1.0***
 
 **onPlayProgress**</br>
@@ -83,6 +83,6 @@ import RNCloudVideoView from 'react-native-cloud-video-view';
 
 ## 方法
 
-**pause()** 暂停播放
-**resume()** 继续播放
-**seek(time)**  设置播放进度,参数以秒为单位float类型
+**pause()** 暂停播放</br>
+**resume()** 继续播放</br>
+**seek(time)**  设置播放进度,参数以秒为单位float类型</br>
