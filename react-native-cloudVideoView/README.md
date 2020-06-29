@@ -1,7 +1,7 @@
 
 # react-native-cloud-video-view
 
-## Getting started
+## 安装
 
 `$ npm install react-native-cloud-video-view --save`
 
