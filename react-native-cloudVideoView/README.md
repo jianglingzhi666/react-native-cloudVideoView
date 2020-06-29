@@ -12,7 +12,7 @@
 ### React Naitve <= 5.9
 `$ react-native link react-native-cloud-video-view`
 
-### 注意 iOS 在Podfile文件添加
+### 注意 iOS 需在在Podfile文件添加
 `pod 'TXLiteAVSDK_Professional', :podspec => 'http://pod-1252463788.cosgz.myqcloud.com/liteavsdkspec/TXLiteAVSDK_Professional.podspec'`
 
 
