@@ -3,38 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF91D09B24A87D6400A7873E /* RNCloudVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF91D09A24A87D6400A7873E /* RNCloudVideoView.m */; };
-		AF91D09C24A87D6400A7873E /* RNCloudVideoView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF91D09924A87D6400A7873E /* RNCloudVideoView.h */; };
-		AF91D0A424A881F700A7873E /* RNCloudVideoViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF91D0A324A881F700A7873E /* RNCloudVideoViewManager.m */; };
+		AF4F5D0924A975EC004B01EB /* RNTXVodPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4F5D0824A975EC004B01EB /* RNTXVodPlayerView.m */; };
+		AF4F5D0C24A9762B004B01EB /* RNTXVodPlayerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4F5D0B24A9762B004B01EB /* RNTXVodPlayerViewManager.m */; };
+		B3E7B58A1CC2AC0600A0062D /* RNCloudVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNCloudVideoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AF91D09424A87D6400A7873E /* CopyFiles */ = {
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				AF91D09C24A87D6400A7873E /* RNCloudVideoView.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AF91D09624A87D6400A7873E /* libRNCloudVideoView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCloudVideoView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF91D09924A87D6400A7873E /* RNCloudVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCloudVideoView.h; sourceTree = "<group>"; };
-		AF91D09A24A87D6400A7873E /* RNCloudVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNCloudVideoView.m; sourceTree = "<group>"; };
-		AF91D0A224A881F700A7873E /* RNCloudVideoViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCloudVideoViewManager.h; sourceTree = "<group>"; };
-		AF91D0A324A881F700A7873E /* RNCloudVideoViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNCloudVideoViewManager.m; sourceTree = "<group>"; };
+		134814201AA4EA6300B7C361 /* libRNCloudVideoView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCloudVideoView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4F5D0724A975EC004B01EB /* RNTXVodPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTXVodPlayerView.h; sourceTree = "<group>"; };
+		AF4F5D0824A975EC004B01EB /* RNTXVodPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTXVodPlayerView.m; sourceTree = "<group>"; };
+		AF4F5D0A24A9762B004B01EB /* RNTXVodPlayerViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTXVodPlayerViewManager.h; sourceTree = "<group>"; };
+		AF4F5D0B24A9762B004B01EB /* RNTXVodPlayerViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTXVodPlayerViewManager.m; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* RNCloudVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCloudVideoView.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNCloudVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCloudVideoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AF91D09324A87D6400A7873E /* Frameworks */ = {
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,138 +45,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AF91D08D24A87D6400A7873E = {
+		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF91D09824A87D6400A7873E /* RNCloudVideoView */,
-				AF91D09724A87D6400A7873E /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		AF91D09724A87D6400A7873E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AF91D09624A87D6400A7873E /* libRNCloudVideoView.a */,
+				134814201AA4EA6300B7C361 /* libRNCloudVideoView.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF91D09824A87D6400A7873E /* RNCloudVideoView */ = {
+		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				AF91D09924A87D6400A7873E /* RNCloudVideoView.h */,
-				AF91D09A24A87D6400A7873E /* RNCloudVideoView.m */,
-				AF91D0A224A881F700A7873E /* RNCloudVideoViewManager.h */,
-				AF91D0A324A881F700A7873E /* RNCloudVideoViewManager.m */,
+				AF4F5D0A24A9762B004B01EB /* RNTXVodPlayerViewManager.h */,
+				AF4F5D0B24A9762B004B01EB /* RNTXVodPlayerViewManager.m */,
+				AF4F5D0724A975EC004B01EB /* RNTXVodPlayerView.h */,
+				AF4F5D0824A975EC004B01EB /* RNTXVodPlayerView.m */,
+				B3E7B5881CC2AC0600A0062D /* RNCloudVideoView.h */,
+				B3E7B5891CC2AC0600A0062D /* RNCloudVideoView.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
 			);
-			path = RNCloudVideoView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF91D09524A87D6400A7873E /* RNCloudVideoView */ = {
+		58B511DA1A9E6C8500147676 /* RNCloudVideoView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF91D09F24A87D6400A7873E /* Build configuration list for PBXNativeTarget "RNCloudVideoView" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNCloudVideoView" */;
 			buildPhases = (
-				AF91D09224A87D6400A7873E /* Sources */,
-				AF91D09324A87D6400A7873E /* Frameworks */,
-				AF91D09424A87D6400A7873E /* CopyFiles */,
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RNCloudVideoView;
-			productName = RNCloudVideoView;
-			productReference = AF91D09624A87D6400A7873E /* libRNCloudVideoView.a */;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNCloudVideoView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AF91D08E24A87D6400A7873E /* Project object */ = {
+		58B511D31A9E6C8500147676 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				KnownAssetTags = (
-					New,
-				);
-				LastUpgradeCheck = 1150;
-				ORGANIZATIONNAME = jianglingzhi;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
-					AF91D09524A87D6400A7873E = {
-						CreatedOnToolsVersion = 11.5;
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
 			};
-			buildConfigurationList = AF91D09124A87D6400A7873E /* Build configuration list for PBXProject "RNCloudVideoView" */;
-			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNCloudVideoView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
-				Base,
 			);
-			mainGroup = AF91D08D24A87D6400A7873E;
-			productRefGroup = AF91D09724A87D6400A7873E /* Products */;
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF91D09524A87D6400A7873E /* RNCloudVideoView */,
+				58B511DA1A9E6C8500147676 /* RNCloudVideoView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AF91D09224A87D6400A7873E /* Sources */ = {
+		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF91D0A424A881F700A7873E /* RNCloudVideoViewManager.m in Sources */,
-				AF91D09B24A87D6400A7873E /* RNCloudVideoView.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* RNCloudVideoView.m in Sources */,
+				AF4F5D0924A975EC004B01EB /* RNTXVodPlayerView.m in Sources */,
+				AF4F5D0C24A9762B004B01EB /* RNTXVodPlayerViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AF91D09D24A87D6400A7873E /* Debug */ = {
+		58B511ED1A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -183,57 +162,43 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		AF91D09E24A87D6400A7873E /* Release */ = {
+		58B511EE1A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -241,60 +206,67 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		AF91D0A024A87D6400A7873E /* Debug */ = {
+		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RNCloudVideoView;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AF91D0A124A87D6400A7873E /* Release */ = {
+		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RNCloudVideoView;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF91D09124A87D6400A7873E /* Build configuration list for PBXProject "RNCloudVideoView" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNCloudVideoView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF91D09D24A87D6400A7873E /* Debug */,
-				AF91D09E24A87D6400A7873E /* Release */,
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF91D09F24A87D6400A7873E /* Build configuration list for PBXNativeTarget "RNCloudVideoView" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNCloudVideoView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF91D0A024A87D6400A7873E /* Debug */,
-				AF91D0A124A87D6400A7873E /* Release */,
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AF91D08E24A87D6400A7873E /* Project object */;
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
 }
