@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <TXVodPlayer.h>
+#import  "TXVodPlayer.h"
 #import <React/RCTComponent.h>
 NS_ASSUME_NONNULL_BEGIN
 
