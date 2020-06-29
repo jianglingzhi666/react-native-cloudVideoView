@@ -1,6 +1,10 @@
 
 # react-native-cloud-video-view
 
+## 简介
+
+基于腾讯腾讯云点播封装的一款视频播放器
+
 ## 安装
 
 `$ npm install react-native-cloud-video-view --save`
