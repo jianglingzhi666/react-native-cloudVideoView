@@ -28,7 +28,9 @@ import RNCloudVideoView from 'react-native-cloud-video-view';
 ```
 
 ## 可配置属性
+
 **repeat**</br>
+
 ***是否开启循环播放***</br>
 * ***false(默认)*** 关闭循环播放</br>
 * ***ture*** 开启循环播放</br>
@@ -73,3 +75,6 @@ import RNCloudVideoView from 'react-native-cloud-video-view';
 * ***2106***  硬解启动失败，采用软解
 * ***2013***  播放器已准备完成，可以播放
 * ***2003***  网络接收到首个可渲染的视频数据包
+
+
+
