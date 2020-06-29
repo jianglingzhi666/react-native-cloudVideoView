@@ -11,37 +11,19 @@
 ### 注意 iOS 在Podfile文件添加
 `pod 'TXLiteAVSDK_Professional', :podspec => 'http://pod-1252463788.cosgz.myqcloud.com/liteavsdkspec/TXLiteAVSDK_Professional.podspec'`
 
-### Manual installation
 
 
-#### iOS
 
-1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-cloud-video-view` and add `RNCloudVideoView.xcodeproj`
-3. In XCode, in the project navigator, select your project. Add `libRNCloudVideoView.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Run your project (`Cmd+R`)<
-
-#### Android
-
-1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.video.RNCloudVideoView.RNCloudVideoViewPackage;` to the imports at the top of the file
-  - Add `new RNCloudVideoViewPackage()` to the list returned by the `getPackages()` method
-2. Append the following lines to `android/settings.gradle`:
-  	```
-  	include ':react-native-cloud-video-view'
-  	project(':react-native-cloud-video-view').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-cloud-video-view/android')
-  	```
-3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
-  	```
-      compile project(':react-native-cloud-video-view')
-  	```
-
-
-## Usage
+## 用法
 ```javascript
 import RNCloudVideoView from 'react-native-cloud-video-view';
-
-// TODO: What to do with the module?
-RNCloudVideoView;
+<RNCloudVideoView
+   ref="RNCloudVideoView"
+   bearing="transverse" //视频方向
+   mode="cover" //沾满方式
+   repeat={true} //是否循环播放
+   src="https://media.w3.org/2010/05/sintel/trailer.mp4" //视频地址
+   style={{flex: 1, zIndex: 1}}
+   />
 ```
   
