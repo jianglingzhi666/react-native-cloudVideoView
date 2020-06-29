@@ -24,7 +24,15 @@ import RNCloudVideoView from 'react-native-cloud-video-view';
    repeat={true} //是否循环播放
    src="https://media.w3.org/2010/05/sintel/trailer.mp4" //视频地址
    style={{flex: 1, zIndex: 1}}
-   />
+   onPlayProgress={event => {
+   ...
+   }}
+    onPlayState={event => {
+    ...
+    }}
+  />
+   //继续播放
+   this.refs.RNCloudVideoView.resume();
 ```
 
 ## 可配置属性
