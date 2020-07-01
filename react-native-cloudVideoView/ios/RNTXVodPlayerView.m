@@ -61,11 +61,11 @@
 -(void) onPlayEvent:(TXVodPlayer *)player event:(int)EvtID withParam:(NSDictionary*)param {
     if (EvtID == PLAY_EVT_PLAY_PROGRESS) {
             // 加载进度, 单位是秒, 小数部分为毫秒
-            float duration = [param[EVT_PLAYABLE_DURATION] intValue];
+            float duration = [param[EVT_PLAYABLE_DURATION] floatValue];
             // 播放进度, 单位是秒, 小数部分为毫秒
-            float progress = [param[EVT_PLAY_PROGRESS] intValue];
+            float progress = [param[EVT_PLAY_PROGRESS] floatValue];
             // 视频总长, 单位是秒, 小数部分为毫秒
-            float total = [param[EVT_PLAY_DURATION] intValue];
+            float total = [param[EVT_PLAY_DURATION] floatValue];
             NSDictionary * dic = @{
               @"duration":@(duration),
               @"progress":@(progress),
