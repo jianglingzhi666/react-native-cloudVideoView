@@ -62,7 +62,6 @@ import RNCloudVideoView from 'react-native-cloud-video-view';
 **cache**</br>
 ***设置视频缓存数量（默认为0）***</br>
 
-**
 
 **preload**</br>
 ***是否开启预加载***
