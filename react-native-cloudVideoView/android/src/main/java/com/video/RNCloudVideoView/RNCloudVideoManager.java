@@ -22,7 +22,7 @@ import static com.tencent.rtmp.TXLiveConstants.RENDER_ROTATION_PORTRAIT;
 
 public class RNCloudVideoManager extends SimpleViewManager <RNCloudVideoView>{
     ReactApplicationContext mCallerContext;
-
+    public boolean paused = false;
     public RNCloudVideoManager(ReactApplicationContext reactContext) {
         mCallerContext = reactContext;
     }
@@ -69,9 +69,15 @@ public class RNCloudVideoManager extends SimpleViewManager <RNCloudVideoView>{
     public void setCache(RNCloudVideoView view, int length){ //缓存视频数量默认为0
         view.cache(length);
     }
-    @ReactProp(name = "preload",defaultBoolean = false)
+
+    @ReactProp(name = "paused",defaultBoolean = false)
     public void setPreload(RNCloudVideoView view, boolean preload){
-        view.tXLivePlayer.setAutoPlay(preload);
+        paused = preload;
+        if(preload == false){
+            view.tXLivePlayer.resume();
+        }else{
+            view.tXLivePlayer.pause();
+        }
     }
     @ReactProp(name = "repeat", defaultBoolean = false)
     public void setRepeat(RNCloudVideoView view, boolean repeat){
