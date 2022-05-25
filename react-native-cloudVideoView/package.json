@@ -1,8 +1,8 @@
 {
   "name": "react-native-cloud-video-view",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A Tencent player based on the package of the player,it works on iOS and Android",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "patch": "npm version patch",

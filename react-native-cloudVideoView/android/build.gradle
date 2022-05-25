@@ -35,6 +35,6 @@ repositories {
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
-    implementation 'com.tencent.liteavsdk:LiteAVSDK_Smart:latest.release'
+    implementation 'com.tencent.liteav:LiteAVSDK_Player:latest.release'
 }
   
