@@ -12,8 +12,6 @@
 ### React Naitve <= 5.9
 `$ react-native link react-native-cloud-video-view`
 
-### 注意 iOS 需在在Podfile文件添加
-`pod 'TXLiteAVSDK_Professional', :podspec => 'http://pod-1252463788.cosgz.myqcloud.com/liteavsdkspec/TXLiteAVSDK_Professional.podspec'`
 
 
 
@@ -63,10 +61,6 @@ import RNCloudVideoView from 'react-native-cloud-video-view';
 ***设置视频缓存数量（默认为0）***</br>
 
 
-**preload**</br>
-***是否开启预加载***
-* ***false(默认)*** 关闭预加载</br>
-* ***ture*** 开启预加载</br>
 
 **rate**</br>
 ***设置播放倍数默认为1.0***
