@@ -6,6 +6,12 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8975C414283DC66700A963B8 /* RNTXVodPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8975C40E283DC66600A963B8 /* RNTXVodPlayerView.m */; };
+		8975C415283DC66700A963B8 /* RNCloudVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8975C40F283DC66600A963B8 /* RNCloudVideoView.m */; };
+		8975C416283DC66700A963B8 /* RNTXVodPlayerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8975C413283DC66700A963B8 /* RNTXVodPlayerViewManager.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +26,12 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNCloudVideoView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCloudVideoView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8975C40E283DC66600A963B8 /* RNTXVodPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTXVodPlayerView.m; sourceTree = "<group>"; };
+		8975C40F283DC66600A963B8 /* RNCloudVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCloudVideoView.m; sourceTree = "<group>"; };
+		8975C410283DC66600A963B8 /* RNTXVodPlayerViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTXVodPlayerViewManager.h; sourceTree = "<group>"; };
+		8975C411283DC66600A963B8 /* RNTXVodPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTXVodPlayerView.h; sourceTree = "<group>"; };
+		8975C412283DC66700A963B8 /* RNCloudVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCloudVideoView.h; sourceTree = "<group>"; };
+		8975C413283DC66700A963B8 /* RNTXVodPlayerViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTXVodPlayerViewManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +56,12 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				8975C412283DC66700A963B8 /* RNCloudVideoView.h */,
+				8975C40F283DC66600A963B8 /* RNCloudVideoView.m */,
+				8975C411283DC66600A963B8 /* RNTXVodPlayerView.h */,
+				8975C40E283DC66600A963B8 /* RNTXVodPlayerView.m */,
+				8975C410283DC66600A963B8 /* RNTXVodPlayerViewManager.h */,
+				8975C413283DC66700A963B8 /* RNTXVodPlayerViewManager.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +123,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8975C415283DC66700A963B8 /* RNCloudVideoView.m in Sources */,
+				8975C414283DC66700A963B8 /* RNTXVodPlayerView.m in Sources */,
+				8975C416283DC66700A963B8 /* RNTXVodPlayerViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
